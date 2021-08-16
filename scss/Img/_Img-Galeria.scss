@@ -1,0 +1,17 @@
+
+.row{
+    margin: 0px 20px;
+    display: flex;
+    padding: 5px;
+    .imgGaleria{
+        width: 100%;
+        border-radius: 1em 1em 1em 1em;
+        border: 1px solid white;
+    }
+    .column{
+        padding: 5px;
+        .imgGaleria{
+            margin-top:5px ;}
+    }
+}
+

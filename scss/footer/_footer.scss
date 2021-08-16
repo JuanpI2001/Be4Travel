@@ -1,0 +1,43 @@
+ @mixin TipoFooter ($tipo){
+    bottom: 0;
+    display: flex;
+    position: $tipo;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #294674;
+    text-align: center;
+    width: 100%;
+}
+@mixin Social {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 45px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer__relative{
+    @include TipoFooter(relative);
+    
+    .footer__Text{
+        align-content: center;
+        color:white;
+         
+     }
+    .footer__socials{
+       @include Social;
+    }
+}
+.footer__fixed{
+    @include TipoFooter(fixed);
+    
+    .footer__Text{
+        align-content: center;
+        color:white;
+         
+     }
+    .footer__socials{
+        @include Social;
+    }
+}

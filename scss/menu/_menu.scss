@@ -1,0 +1,21 @@
+.menu{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    min-height:8vh;
+    background-color: #294674;
+    .menu__enlaces{
+        display: flex;
+        padding: 0;
+    }
+    .menu__enlaces--white{
+        padding: 0 30px;
+        display: block;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+    }
+}
+.menu__enlaces :hover{
+    transform:scale(1.05);
+}

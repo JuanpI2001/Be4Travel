@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Paises, Lugares, Viajes, Vacaciones, Ciudades, Escapadas, Fin de semana">
+    <title>Contactanos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=" css/styless.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body class="bodyContacto">
+    <header>
+        <nav class="menu">
+            <img src="ImagenesHtml/iconoDePrueba.PNG" alt="logo">
+            <ul class="menu__enlaces">
+                <a class="menu__enlaces--white" href="Index.html">Inicio</a>
+                <a class="menu__enlaces--white" href="Lugares.html">Lugares mas visitados</a>
+                <a class="menu__enlaces--white" href="Galeria.html">Galeria</a>
+                <a class="menu__enlaces--white" href="Recomendaciones.html">Recomendaciones</a>
+            </ul>
+        </nav>
+    </header>
+    <form class="formBox" method="GET">
+        <div class="container">
+        <!--Tipo nombre-->
+        <label class="Texto__contacto" for="nombre">Ingrese su nombre</label>
+        <input type = "text" name="nombre">
+        <br><br>
+        <!--Tipo apellido-->
+        <label class="Texto__contacto"for="apellido">Ingrese su apellido</label>
+        <input type = "text" name="apellido">       
+        <!--Tipo checkbox-->
+        <br><br>
+        <label class="Texto__contacto" for="hombre">Hombre</label>
+        <input class="controls" type="checkbox"name="hombre"value="mombre">
+        <label class="Texto__contacto" for="mujer">Mujer</label>
+        <input class="controls" type="checkbox"name="mujer"value="mujer">
+        <label class="Texto__contacto" for="otro">Otro</label>
+        <input class="controls" type="checkbox"name="otro"value="otro">
+        <!--Tipo section-->
+        <label class="Texto__contacto" for="pais"></label>
+        <select name="Pais" id="Pais">
+            <option class="Texto__contacto" value="Argentina">Argentina</option>
+            <option class="Texto__contacto"value="Chile">Chile</option>
+            <option class="Texto__contacto"value="Uruguay">Uruguay</option>
+            <option class="Texto__contacto"value="Otro">Otro</option>
+        </select>
+        <!--Tipo textarea-->
+        <br><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <!--Tipo submit-->
+        <br><br>
+        <input class="button" type="submit"value="Enviar formulario">
+        <!--Tipo reset-->
+        <input class="button" type="reset"value="Limpiar Formulario">
+    </div>
+    </form>
+
+
+    <footer class="footer__fixed">
+        <p class="footer__Text">SEGUINOS EN NUESTRAS REDES SOCIALES</p>   
+            <ul class="footer__socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </footer>
+</body>
+</html>

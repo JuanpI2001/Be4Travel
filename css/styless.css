@@ -1,0 +1,222 @@
+.bodyGaleria {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #6190e8, #a7bfe8); }
+
+.Body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../ImagenesHtml/backgroundinicio.jpg); }
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 8vh;
+  background-color: #294674; }
+  .menu .menu__enlaces {
+    display: flex;
+    padding: 0; }
+  .menu .menu__enlaces--white {
+    padding: 0 30px;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: white; }
+
+.menu__enlaces :hover {
+  transform: scale(1.05); }
+
+.footer__relative {
+  bottom: 0;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #294674;
+  text-align: center;
+  width: 100%; }
+  .footer__relative .footer__Text {
+    align-content: center;
+    color: white; }
+  .footer__relative .footer__socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 45px;
+    justify-content: center;
+    gap: 10px; }
+
+.footer__fixed {
+  bottom: 0;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #294674;
+  text-align: center;
+  width: 100%; }
+  .footer__fixed .footer__Text {
+    align-content: center;
+    color: white; }
+  .footer__fixed .footer__socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 45px;
+    justify-content: center;
+    gap: 10px; }
+
+.row {
+  margin: 0px 20px;
+  display: flex;
+  padding: 5px; }
+  .row .imgGaleria {
+    width: 100%;
+    border-radius: 1em 1em 1em 1em;
+    border: 1px solid white; }
+  .row .column {
+    padding: 5px; }
+    .row .column .imgGaleria {
+      margin-top: 5px; }
+
+.textGaleria {
+  color: black;
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive; }
+
+.Titulo .Titulo__Texto {
+  color: white;
+  margin-top: 250px;
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive; }
+
+.textLugares {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  box-shadow: whitesmoke;
+  border-bottom: 3px solid black; }
+
+.textoLugares {
+  margin-right: 30%;
+  margin-left: 30%;
+  font-size: 20px;
+  text-align: center; }
+
+.subTitulo {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px; }
+
+.bodyLugares {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  min-height: calc(100vh - 120px);
+  background: linear-gradient(to right, #6190e8, #a7bfe8); }
+
+.imgLugares {
+  display: block;
+  margin: auto;
+  height: 40%;
+  width: 40%;
+  margin-bottom: 30px; }
+
+.bodyRecomendaciones {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #6190e8, #a7bfe8); }
+
+.cardForm {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px; }
+  .cardForm .card {
+    padding-bottom: 2.5em;
+    width: 100%;
+    border-radius: 1em;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    transition: transform 500ms ease;
+    background-image: linear-gradient(to top, #7F7FD5, #86A8E7, #91EAE4); }
+    .cardForm .card #contSub {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 25px;
+      text-align: center;
+      border-bottom: 3px solid black; }
+    .cardForm .card .containerText {
+      width: 90%;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      padding: 15px; }
+    .cardForm .card .imgCard {
+      width: 100%;
+      display: block;
+      border-radius: 1em 1em 0 0;
+      height: 200px; }
+  .cardForm .card:hover {
+    transform: scale(1.05); }
+
+.textRecomendaciones {
+  text-align: center;
+  margin-right: auto;
+  margin-right: auto;
+  font-size: 150%;
+  color: black; }
+
+.subtituloRecomendaciones {
+  border-bottom: solid black;
+  margin-top: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  width: 250px; }
+
+.formBox {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  align-items: center; }
+  .formBox .container {
+    max-width: 250px;
+    width: 100%;
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 5px; }
+    .formBox .container .controls {
+      display: flex;
+      flex-direction: column;
+      margin-left: 10px; }
+
+.bodyContacto {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #6190e8, #a7bfe8); }
+
+.Texto__contacto {
+  font-size: 20px;
+  padding: 10px; }
+
+.button {
+  display: inline-block;
+  justify-content: space-around;
+  text-decoration: none;
+  height: 30px;
+  background-color: lightskyblue; }
+
+.button:hover {
+  background-color: white; }
