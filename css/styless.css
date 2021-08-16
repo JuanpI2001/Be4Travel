@@ -195,12 +195,19 @@
     max-width: 250px;
     width: 100%;
     background-color: white;
-    padding: 25px 30px;
-    border-radius: 5px; }
+    padding: 30px 30px;
+    border-radius: 5px;
+    border: solid black 3px; }
+    .formBox .container .Eleccion {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 30px; }
+    .formBox .container .Label {
+      margin: 10px; }
     .formBox .container .controls {
       display: flex;
-      flex-direction: column;
-      margin-left: 10px; }
+      flex-direction: row;
+      margin-left: 20px; }
 
 .bodyContacto {
   margin: 0;
@@ -209,9 +216,11 @@
 
 .Texto__contacto {
   font-size: 20px;
-  padding: 10px; }
+  padding: 20px;
+  text-align: left; }
 
 .button {
+  margin-top: 10px;
   display: inline-block;
   justify-content: space-around;
   text-decoration: none;
@@ -219,4 +228,4 @@
   background-color: lightskyblue; }
 
 .button:hover {
-  background-color: white; }
+  background-color: grey; }

@@ -28,32 +28,34 @@
         <div class="container">
         <!--Tipo nombre-->
         <label class="Texto__contacto" for="nombre">Ingrese su nombre</label>
-        <input type = "text" name="nombre">
-        <br><br>
+        <input class="Label"type = "text" name="nombre">
+        
         <!--Tipo apellido-->
         <label class="Texto__contacto"for="apellido">Ingrese su apellido</label>
-        <input type = "text" name="apellido">       
+        <input class="Label"type = "text" name="apellido">       
         <!--Tipo checkbox-->
-        <br><br>
+        
         <label class="Texto__contacto" for="hombre">Hombre</label>
         <input class="controls" type="checkbox"name="hombre"value="mombre">
+        
         <label class="Texto__contacto" for="mujer">Mujer</label>
         <input class="controls" type="checkbox"name="mujer"value="mujer">
+        
         <label class="Texto__contacto" for="otro">Otro</label>
         <input class="controls" type="checkbox"name="otro"value="otro">
         <!--Tipo section-->
         <label class="Texto__contacto" for="pais"></label>
-        <select name="Pais" id="Pais">
-            <option class="Texto__contacto" value="Argentina">Argentina</option>
-            <option class="Texto__contacto"value="Chile">Chile</option>
-            <option class="Texto__contacto"value="Uruguay">Uruguay</option>
-            <option class="Texto__contacto"value="Otro">Otro</option>
+        <select class="Eleccion" name="Pais" id="Pais">
+            <option value="Argentina">Argentina</option>
+            <option value="Chile">Chile</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Otro">Otro</option>
         </select>
         <!--Tipo textarea-->
-        <br><br>
+        
         <textarea name="" id="" cols="30" rows="10"></textarea>
         <!--Tipo submit-->
-        <br><br>
+        
         <input class="button" type="submit"value="Enviar formulario">
         <!--Tipo reset-->
         <input class="button" type="reset"value="Limpiar Formulario">

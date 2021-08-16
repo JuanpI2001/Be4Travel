@@ -1,4 +1,5 @@
 .button{
+    margin-top: 10px;
     display: inline-block;
     justify-content: space-around;
     text-decoration: none;
@@ -6,5 +7,5 @@
     background-color:lightskyblue;
 }
 .button:hover{
-    background-color: white;
+    background-color: grey;
 }
